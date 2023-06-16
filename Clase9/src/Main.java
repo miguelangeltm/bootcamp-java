@@ -27,7 +27,6 @@ public class Main {
 
         for(String nombrePersona : personas){
 
-
             if(nombrePersona.startsWith(busqueda)){
                 System.out.println("La persona encontrada: " +nombrePersona);
             }
