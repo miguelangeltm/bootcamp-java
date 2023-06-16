@@ -10,17 +10,9 @@ import java.util.List;
 
 import static org.springframework.util.CollectionUtils.isEmpty;
 
-/*Estamos armando el servicio de autocompletar de Google.
-Tienes que desarrollar una aplicación en springboot que recibe lo que está escribiendo el usuario,
-y devuelve un listado de posibles resultados. Para hacer esto en un array de String carga resultados de ejemplo
-*/
+
 @RestController
 public class BusquedaController {
-    /*Estamos armando el servicio de autocompletar de Google.
-    Tienes que desarrollar una aplicación en springboot que recibe
-    lo que está escribiendo el usuario, y devuelve un listado de posibles resultados.
-     Para hacer esto en un array de String carga resultados de ejemplo
-*/
     public String[] nombres = {
             "Miguel",
             "Ezequiel",
